@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+td{
+    width: 60px;
+    height: 60px;
+}
+table{
+    border: 3px outset black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+.even td:nth-child(even){
+    background-color: black;
+}
+.odd td:nth-child(odd){
+    background-color: black;
+}
